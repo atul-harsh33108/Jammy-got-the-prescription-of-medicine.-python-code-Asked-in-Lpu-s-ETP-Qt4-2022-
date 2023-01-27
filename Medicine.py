@@ -12,7 +12,7 @@ def main():
             ts=ts+s[i]
             if len(ts)==k:  #String break
                 p=''
-                for char in ts:    # Duplicate removal of characters
+                for char in ts:    # Duplicate characters removal
                     if char not in p:
                         p=p+char
                 ml.append(p)      #Add to list
